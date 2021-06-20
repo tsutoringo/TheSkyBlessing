@@ -6,4 +6,5 @@
 
 #> 定義類はここに
 # @within function asset:sacred_treasure/0616.call_blade/**
-    scoreboard objectives add 
+    scoreboard objectives add 9W.BladeCool dummy
+    scoreboard objectives add 9W.UserID dummy
