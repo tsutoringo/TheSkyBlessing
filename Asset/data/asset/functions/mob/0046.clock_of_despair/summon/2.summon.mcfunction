@@ -5,7 +5,7 @@
 # @within function asset:mob/0046.clock_of_despair/summon/1.trigger
 
 # 元となるMobを召喚する
-    summon zombie ~ ~ ~ {Tags:["MobInit","AlwaysInvisible"],NoAI:1b,DeathLootTable:"asset:mob/death/0046.clock_of_despair"}
+    summon zombie ~ ~ ~ {Tags:["MobInit","AlwaysInvisible","1A.0Clock"],NoAI:1b,DeathLootTable:"asset:mob/death/0046.clock_of_despair"}
 # ID (int)
     data modify storage asset:mob ID set value 46
 # Type (string) Wikiを参照
@@ -63,6 +63,9 @@
 
 # 演出が遅れないようにスコアを設定する
     scoreboard players set @e[type=zombie,tag=MobInit,distance=..0.01] 1A.Wait 3
+
+# 夜にする
+    time set 18000
 
 # MobInitタグ持ちを対象にして召喚関数呼び出し
     execute as @e[type=zombie,tag=MobInit,distance=..0.01] run function asset:mob/common/summon
