@@ -6,3 +6,6 @@
 
 # 0時の時の処理
     execute if entity @s[tag=1A.0Clock] run playsound block.anvil.place master @a ~ ~ ~ 1 1.6
+
+# 0時以降の処理
+    execute unless entity @s[tag=1A.0Clock] run playsound minecraft:item.shield.block master @a ~ ~ ~ 1 1

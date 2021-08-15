@@ -9,3 +9,4 @@
 
 # メッセージ
     tellraw @p {"text":"【弐の刻】彼女は動き出した。長い眠りからの目覚めは\n世界の破壊を決行した。","color":"dark_purple","bold":true}
+    

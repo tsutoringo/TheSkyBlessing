@@ -14,7 +14,7 @@
     playsound minecraft:block.respawn_anchor.set_spawn master @a
 
 
-    
+
 
 # メッセージ
     tellraw @p {"text":"【壱の刻】彼女は誓った。この世界の洗礼を。\nこの世界はやり直されるべきである。","color":"dark_purple","bold":true}

@@ -5,7 +5,7 @@
 # @within function asset:mob/0046.clock_of_despair/summon/1.trigger
 
 # 元となるMobを召喚する
-    summon zombie ~ ~ ~ {Tags:["MobInit","AlwaysInvisible","1A.0Clock"],NoAI:1b,DeathLootTable:"asset:mob/death/0046.clock_of_despair"}
+    summon zombie ~ ~ ~ {Tags:["MobInit","AlwaysInvisible","1A.0Clock"],NoAI:1b,Silent:1b,DeathLootTable:"asset:mob/death/0046.clock_of_despair"}
 # ID (int)
     data modify storage asset:mob ID set value 46
 # Type (string) Wikiを参照
@@ -23,7 +23,7 @@
     # data modify storage asset:mob WeaponDropChances set value
 # 防具
     # 頭 (Compound(Item)) (オプション)
-        # data modify storage asset:mob Armor.Head set value
+        data modify storage asset:mob Armor.Head set value {id:"minecraft:stick",Count:1b,tag:{CustomModelData:20020}}
     # 胴 (Compound(Item)) (オプション)
         # data modify storage asset:mob Armor.Chest set value
     # 脚 (Compound(Item)) (オプション)
