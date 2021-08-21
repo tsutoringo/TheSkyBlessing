@@ -15,6 +15,10 @@
         "asset:mob/0037.fire_spreader/attack/1.trigger",
         "asset:mob/0047.the_heretic/attack/1.trigger",
         "asset:mob/0023.chainsaw_zombie/attack/1.trigger",
-        "asset:mob/0007.ectoplasm/attack/1.trigger"
+        "asset:mob/0007.ectoplasm/attack/1.trigger",
+        "asset:mob/0068.guardian_of_the_night/attack/1.trigger",
+        "asset:mob/0069.guardian_of_the_dawn/attack/1.trigger",
+        "asset:mob/0070.guardian_of_the_morning/attack/1.trigger",
+        "asset:mob/0071.guardian_of_the_noon/attack/1.trigger"
     ]
 }

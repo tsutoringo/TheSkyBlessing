@@ -24,6 +24,10 @@
         "asset:mob/0056.thunder_trifler/summon/1.trigger",
         "asset:mob/0037.fire_spreader/summon/1.trigger",
         "asset:mob/0047.the_heretic/summon/1.trigger",
-        "asset:mob/0046.clock_of_despair/summon/1.trigger"
+        "asset:mob/0046.clock_of_despair/summon/1.trigger",
+        "asset:mob/0068.guardian_of_the_night/summon/1.trigger",
+        "asset:mob/0069.guardian_of_the_dawn/summon/1.trigger",
+        "asset:mob/0070.guardian_of_the_morning/summon/1.trigger",
+        "asset:mob/0071.guardian_of_the_noon/summon/1.trigger"
     ]
 }
