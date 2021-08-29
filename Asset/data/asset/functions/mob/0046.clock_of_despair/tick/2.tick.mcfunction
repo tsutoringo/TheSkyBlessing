@@ -8,9 +8,9 @@
     scoreboard players add @s 1A.ClockHand 1
     execute if score @s 1A.ClockHand matches 15 run function asset:mob/0046.clock_of_despair/tick/2.1.clockhand
 
-# 4tick毎に実行
+# 15tick毎に実行
     scoreboard players add @s 1A.Wait 1
-    execute if score @s 1A.Wait matches 4.. run function asset:mob/0046.clock_of_despair/tick/2.2.regularly
+    execute if score @s 1A.Wait matches 15.. run function asset:mob/0046.clock_of_despair/tick/2.2.regularly
 
 # 時間で発動
     scoreboard players add @s 1A.BossTime 1
